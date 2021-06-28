@@ -1,0 +1,117 @@
+/* ===================================================
+Earthquake
+=================================================== */
+.earthquake__container {
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.earthquake__title {
+  color: $appDarkGray;
+}
+
+.earthquake__table th {
+  color: $appDarkGray;
+  padding-right: 1.5rem;
+}
+
+.earthquake__table td {
+  color: $appMediumGray;
+  font-weight: 450;
+}
+
+/* ===================================================
+  Home
+  =================================================== */
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__title {
+  color: $appDarkGray;
+}
+
+.home__table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home__table-thead {
+  text-align: center;
+}
+
+.home__table-tbody {
+  font-weight: bold;
+  color: $appDarkGray;
+}
+
+/* ===================================================
+  Navigation Bar
+  =================================================== */
+.navBar {
+  background-color: $appLightGray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.navBar__logo {
+  max-width: 3em;
+}
+
+.nav__title {
+  font-size: 2.5em;
+  color: $appMediumGray;
+}
+
+.nav__profile {
+  font-weight: bold;
+}
+
+/* ===================================================
+  Profile
+  =================================================== */
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__title {
+  color: $appDarkGray;
+  margin: 1.5rem;
+}
+
+.profile__content {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.profile__pic {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 0.75rem;
+}
+
+.profile__table {
+  border-spacing: 0 0.25em;
+}
+
+.profile-table__th {
+  padding-right: 2rem;
+  width: max-content;
+}
+
+.profile__table td {
+  font-weight: 550;
+  color: $appMediumGray;
+}
