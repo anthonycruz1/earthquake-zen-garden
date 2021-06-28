@@ -1,0 +1,58 @@
+{
+  "name": "earthquake-zen-garden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development",
+    "startServer": "nodemon server/server.js",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonycruz1/earthquake-zen-garden.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonycruz1/earthquake-zen-garden/issues"
+  },
+  "homepage": "https://github.com/anthonycruz1/earthquake-zen-garden#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-jest": "^27.0.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.0.5",
+    "jsdom": "^16.6.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.7",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "supertest": "^6.1.3",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
